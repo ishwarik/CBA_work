@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    int n=12345, reversedNumber = 0, remainder;
+    int n=12345, remainder;
 
     
 
@@ -11,7 +11,7 @@ int main()
     {
         remainder = n%10;
         reversedNumber = reversedNumber*10 + remainder;
-        n /= 10;
+        n /= 10
     }
 
     cout << "Reversed Number = " << reversedNumber;
