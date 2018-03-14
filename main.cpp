@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    int n=12345,remainder;
+    int n=12345,remainder,reversedNumber;
 
     
 
