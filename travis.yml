@@ -1,6 +1,6 @@
-language: c
+language: cpp
 compiler: gcc
 
 script:
-- g++ Integrated_AE.c -o travis_gcc_cpp98
+- g++ main.cpp -o travis_gcc_cpp98
 - ./travis_gcc_cpp98
