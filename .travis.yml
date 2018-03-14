@@ -1,6 +1,6 @@
-language: cpp
+language: c
 compiler: gcc
 
 script:
-- g++ main.cpp -o travis_gcc_cpp98
+- g++ main.c -o travis_gcc_cpp98
 - ./travis_gcc_cpp98
